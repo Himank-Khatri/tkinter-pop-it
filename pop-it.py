@@ -18,7 +18,6 @@ def generate():
     
     with open('grid.py', 'w', encoding="utf-8") as f:
         
-         
         f.write('import tkinter as tk\nfrom tkinter import ttk\nimport random\nmaster = tk.Tk()\ntvars=[]\n')
         
         for i in range(ht*bt):
